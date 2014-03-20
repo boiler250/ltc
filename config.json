@@ -1,0 +1,23 @@
+{
+  "lang": "zh-CN",
+  "exchanges": [{
+    "name": "OKCoin",
+    "api": "https://www.okcoin.com/api/ticker.do?symbol=ltc_cny",
+    "currency": "¥"
+  },
+  {
+    "name": "BTCChina",
+    "api": "https://data.btcchina.com/data/ticker?market=cnyltc",
+    "currency": "¥"
+  },
+  {
+    "name": "BTer",
+    "api": "http://data.bter.com/api/1/ticker/ltc_cny",
+    "currency": "¥"
+  },
+  {
+    "name": "BTC-E",
+    "api": "https://btc-e.com/api/2/ltc_usd/ticker",
+    "currency": "$"
+  }]
+}

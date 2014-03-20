@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+
+var fs = require('fs');
+var ltc = require('../lib/ltc');
+
+var config = require("../config.json");
+
+fs.readFile(process.env.HOME + '/.ltc', function(err, data) {
+  if (!err) {
+    config = JSON.parse(data);
+  } else {
+    console.error("Can't find ~/.ltc file, using default configuration");
+  }
+
+  ltc(config);
+
+});
