@@ -1,6 +1,6 @@
 {
   "name": "ltc",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "a command-line litecoin price board",
   "preferGlobal": "true",
   "main": "index.js",
@@ -23,7 +23,6 @@
   "dependencies": {
     "async": "~0.2.10",
     "cli-table": "https://github.com/katoy/cli-table/tarball/kanjiWidth",
-    "request": "~2.34.0",
-    "cheerio": "~0.13.1"
+    "request": "~2.34.0"
   }
 }
